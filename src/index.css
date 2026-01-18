@@ -1,1 +1,20 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
 @import "tailwindcss";
+
+@theme {
+  --color-*: initial;
+  --color-dark-charcoal: #1e1e1e;
+  --color-pale-taupe: #bfb4b0;
+
+  --color-text-soft-lavender-white: #eae9fc;
+  --color-background-graphene-black: #181a1b;
+  --color-primary-navy-indigo: #2f4279;
+  --color-secondary-iron-charcoal: #252627;
+  --accent-graphite-blue: #384252;
+
+  --default-font-family: "Montserrat", "sans-serif";
+}
