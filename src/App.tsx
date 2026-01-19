@@ -6,12 +6,12 @@ import {
   MapPinHouse,
   Phone,
 } from "lucide-react";
+import PageHeader from "./lib/PageHeader";
 
 function App() {
   return (
     <main className="bg-background-graphene-black h-screen text-text-soft-lavender-white/90">
-      {/* <div className=""> */}
-      <div className="bg-background-graphene-black/1 backdrop-blur-3xl flex flex-row h-16 fixed gap-10 w-full z-20 shadow-xs border-b border-accent-graphite-blue/50 ">
+      {/* <div className="bg-background-graphene-black/1 backdrop-blur-3xl flex flex-row h-16 fixed gap-10 w-full z-20 shadow-xs border-b border-accent-graphite-blue/50 ">
         <div className="bg-background-graphene-black/1 flex-1"></div>
         <ul className="flex flex-row flex-1 items-center justify-start gap-20 ">
           <li className="hover:cursor-pointer hover:text-accent-graphite-blue ease-in-out duration-250">
@@ -24,8 +24,8 @@ function App() {
             Projects
           </li>
         </ul>
-      </div>
-      {/* </div> */}
+      </div> */}
+      <PageHeader />
 
       {/** content */}
       <div className="grid grid-cols-2 py-16 px-50 gap-10">
