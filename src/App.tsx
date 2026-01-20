@@ -7,6 +7,7 @@ import {
   Phone,
 } from "lucide-react";
 import PageHeader from "./lib/PageHeader";
+import AboutMe from "./lib/AboutMe";
 
 function App() {
   return (
@@ -44,7 +45,6 @@ function App() {
               interfaces using React, TypeScript, Tailwind, ShadCN, and Flutter,
               with additional experience in Delphi and Python.
             </p>
-
             <p className="text-sm">
               Let’s connect and collaborate on something great
             </p>
@@ -85,25 +85,7 @@ function App() {
 
         {/** right column */}
         <div className="col-span-1 p-10 my-20 overflow-y-auto bg-text-soft-lavender-white/3 border border-secondary-iron-charcoal shadow-sm shadow-secondary-iron-charcoal drop-shadow-2xl rounded-2xl">
-          <section id="#about-me" className="flex flex-col gap-5">
-            <h2 className="text-2xl w-full border-b-6 border-accent-graphite-blue">
-              About Me
-            </h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
-              unde molestias nemo iure ad nulla dolor assumenda fugiat corrupti
-              animi laudantium libero officiis natus repudiandae rem hic ducimus
-              quisquam nihil debitis vel, a ratione rerum suscipit. Voluptatibus
-              eveniet ipsum rerum libero odio nam, architecto optio facere
-              ratione, vel illo laudantium similique necessitatibus soluta
-              explicabo expedita, ullam vitae sit eaque dolore provident
-              adipisci. Sed nostrum nihil fugit recusandae quasi sint molestiae
-              perspiciatis est obcaecati consequatur deleniti corrupti quas
-              dignissimos, aliquid laboriosam. Repellat quo autem excepturi
-              laudantium vitae incidunt et impedit placeat? Earum sequi ea
-              quibusdam dignissimos fugit doloribus dicta aliquam aperiam.
-            </p>
-          </section>
+          <AboutMe />
         </div>
       </div>
     </main>
