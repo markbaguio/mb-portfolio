@@ -1,5 +1,6 @@
 import {
   AtSign,
+  Download,
   Facebook,
   GithubIcon,
   Linkedin,
@@ -48,7 +49,7 @@ function App() {
             <p className="text-sm">
               Let’s connect and collaborate on something great
             </p>
-            <div className="flex flex-col justify-start items-start w-full px-3 py-1 border-l-2 border-accent-graphite-blue">
+            <div className="flex flex-col gap-3 justify-start items-start w-full px-3 py-1 border-l-2 border-accent-graphite-blue">
               <span className="font-light flex justify-center items-center gap-1 text-sm">
                 <AtSign size={12} /> godwinbaguio@gmail.com
               </span>
@@ -58,6 +59,9 @@ function App() {
               <span className="font-light flex justify-center items-center gap-1 text-sm">
                 <MapPinHouse size={12} /> Bulacan, Philippines
               </span>
+              <button className="bg-primary-navy-indigo rounded-sm p-2 flex gap-1 text-sm hover:cursor-pointer hover:text-background-graphene-black hover:bg-text-soft-lavender-white  ease-in-out duration-500 hover:scale-110">
+                <Download size={16} /> Resume
+              </button>
             </div>
             <div className="w-full flex flex-row gap-5 py-10">
               <a
