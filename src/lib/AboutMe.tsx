@@ -20,6 +20,26 @@ function AboutMe() {
         first job wasn't exactly about web development, it gave me a solid
         foundation in software engineering.
       </p>
+      <div className="flex flex-col gap-3 justify-center">
+        <h3 className="text-2xl font-extralight underline decoration-accent-graphite-blue">
+          Technologies I've used
+        </h3>
+        <div className="flex flex-row flex-wrap">
+          <div>
+            <span>Frontend</span>
+            <ul>
+              <li>React</li>
+              <li>Flutter</li>
+            </ul>
+          </div>
+          <div>
+            <span>Backend</span>
+          </div>
+          <div>
+            <span>Frontend</span>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
