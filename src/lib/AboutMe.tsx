@@ -15,26 +15,28 @@ import mongodblogo from "../assets/logos/mongodb-svgrepo-com.svg";
 
 function AboutMe() {
   return (
-    <section id="#about-me" className="flex flex-col gap-5">
-      <h2 className="text-3xl font-light w-full border-b-6 border-primary-navy-indigo">
-        About Me
-      </h2>
-      <p className="text-justify">
-        I'm a detail-oriented developer with{" "}
-        <span className="font-extrabold">more than 1 year</span> of experience
-        in{" "}
-        <span className="font-extrabold">
-          modernizing a large enterprise system using Flutter{" "}
-        </span>{" "}
-        and working with a team that solves our client's business needs. I've{" "}
-        <span className="font-extrabold">handled multiple projects</span> about
-        the enterprise system written in{" "}
-        <span className="font-extrabold">Delphi</span>, which are requested by
-        our <span className="font-extrabold">clients</span> and{" "}
-        <span className="font-extrabold">internal stakeholders.</span> While my
-        first job wasn't exactly about web development, it gave me a solid
-        foundation in software engineering.
-      </p>
+    <section id="#about-me" className="flex flex-col gap-10">
+      <div>
+        <h2 className="text-3xl font-light w-full border-b-6 border-primary-navy-indigo mb-5">
+          About Me
+        </h2>
+        <p className="text-justify">
+          I'm a detail-oriented developer with{" "}
+          <span className="font-extrabold">more than 1 year</span> of experience
+          in{" "}
+          <span className="font-extrabold">
+            modernizing a large enterprise system using Flutter{" "}
+          </span>{" "}
+          and working with a team that solves our client's business needs. I've{" "}
+          <span className="font-extrabold">handled multiple projects</span>{" "}
+          about the enterprise system written in{" "}
+          <span className="font-extrabold">Delphi</span>, which are requested by
+          our <span className="font-extrabold">clients</span> and{" "}
+          <span className="font-extrabold">internal stakeholders.</span> While
+          my first job wasn't exactly about web development, it gave me a solid
+          foundation in software engineering.
+        </p>
+      </div>
       <div className="flex flex-col gap-3 justify-center">
         <h3 className="text-2xl font-extralight underline decoration-accent-graphite-blue">
           Technologies I've used
@@ -50,10 +52,10 @@ export default AboutMe;
 function TechUsedBentoGrid() {
   return (
     <div className="grid grid-cols-3 grid-rows-5 gap-2">
-      <div className="col-span-2 row-span-2 text-lg w-full bg-accent-graphite-blue rounded-lg flex flex-col justify-center items-center font-bold uppercase underline decoration-text-soft-lavender-white hover:scale-102 ease-in-out duration-300">
+      <div className="col-span-2 row-span-2 text-lg border border-text-soft-lavender-white/10 w-full bg-accent-graphite-blue rounded-lg flex flex-col justify-center items-center font-bold uppercase underline decoration-text-soft-lavender-white hover:scale-102 ease-in-out duration-300">
         What's in my toolbox?
       </div>
-      <div className="col-span-1 row-span-5 flex flex-col items-start justify-center w-full bg-accent-graphite-blue/30 rounded-sm p-5 hover:scale-102 ease-in-out duration-300">
+      <div className="col-span-1 row-span-5 border border-text-soft-lavender-white/10 flex flex-col items-start justify-center w-full bg-accent-graphite-blue/30 rounded-sm p-5 hover:scale-102 ease-in-out duration-300">
         <span className="text-lg font-semibold">Frontend</span>
         <ul className="border-l-2 p-2 border-accent-graphite-blue font-light">
           <li className="flex flex-row gap-1">
@@ -90,7 +92,7 @@ function TechUsedBentoGrid() {
           </li>
         </ul>
       </div>
-      <div className="col-span-1 row-span-3 w-full p-5 flex flex-col items-start justify-center bg-secondary-iron-charcoal rounded-sm hover:scale-102 ease-in-out duration-300">
+      <div className="col-span-1 row-span-3 border border-text-soft-lavender-white/10 w-full p-5 flex flex-col items-start justify-center bg-secondary-iron-charcoal rounded-sm hover:scale-102 ease-in-out duration-300">
         <span className="text-lg font-semibold">Backend</span>
         <ul className="border-l-2 p-2 border-accent-graphite-blue font-light">
           <li className="flex flex-row gap-1">
@@ -119,7 +121,7 @@ function TechUsedBentoGrid() {
           </li>
         </ul>
       </div>
-      <div className="col-span-1 row-span-3 w-full flex flex-col items-start justify-center bg-primary-navy-indigo/40 p-5 rounded-sm hover:scale-102 ease-in-out duration-300">
+      <div className="col-span-1 row-span-3 w-full border border-text-soft-lavender-white/10 flex flex-col items-start justify-center bg-primary-navy-indigo/40 p-5 rounded-sm hover:scale-102 ease-in-out duration-300">
         <span className="text-lg font-semibold">Database</span>
         <ul className="border-l-2 p-2 border-accent-graphite-blue font-light">
           <li className="flex flex-row gap-1">
