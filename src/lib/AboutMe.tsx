@@ -17,7 +17,7 @@ function AboutMe() {
   return (
     <section id="#about-me" className="flex flex-col gap-10">
       <div>
-        <h2 className="text-3xl font-light w-full border-b-6 border-primary-navy-indigo mb-5">
+        <h2 className="text-3xl font-semibold w-full border-b-6 border-primary-navy-indigo mb-5">
           About Me
         </h2>
         <p className="text-justify">

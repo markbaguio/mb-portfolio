@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import PageHeader from "./lib/PageHeader";
 import AboutMe from "./lib/AboutMe";
+import Experience from "./lib/Experience";
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
             <h1 className="text-4xl font-extrabold underline underline-1 decoration-primary-navy-indigo decoration-5">
               Mark Godwin Baguio
             </h1>
-            <p className="text-[22.5px]">Software Engineer</p>
+            <p className="text-[22.5px] ">Software Engineer</p>
             <p className="text-sm py-3 font-medium">
               I enjoy turning UI designs into intuitive and functional user
               interfaces using React, TypeScript, Tailwind, ShadCN, and Flutter,
@@ -74,8 +75,9 @@ function App() {
         </section>
 
         {/** right column */}
-        <div className="col-span-1 p-10 my-20 overflow-y-auto bg-text-soft-lavender-white/3 border border-secondary-iron-charcoal shadow-sm shadow-secondary-iron-charcoal drop-shadow-2xl rounded-2xl">
+        <div className="col-span-1 p-10 flex flex-col gap-30 my-20 overflow-y-auto bg-text-soft-lavender-white/3 border border-secondary-iron-charcoal shadow-sm shadow-secondary-iron-charcoal drop-shadow-2xl rounded-2xl">
           <AboutMe />
+          <Experience />
         </div>
       </div>
     </main>
