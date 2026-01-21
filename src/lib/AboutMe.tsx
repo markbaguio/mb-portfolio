@@ -1,3 +1,18 @@
+import reactlogo from "../assets/logos/react-javascript-js-framework-facebook-svgrepo-com.svg";
+import flutterlogo from "../assets/logos/flutter-svgrepo-com.svg";
+import tailwindcsslogo from "../assets/logos/tailwindcss-icon-svgrepo-com.svg";
+import bootstraplogo from "../assets/logos/bootstrap-svgrepo-com.svg";
+import shadcnlogo from "../assets/logos/shadcn-logo.png";
+import materialuilogo from "../assets/logos/material-ui-svgrepo-com.svg";
+import expressjslogo from "../assets/logos/express-js-icon-png-transparent-png.png";
+import nodejslogo from "../assets/logos/nodejs-svgrepo-com.svg";
+import sqlalchemylogo from "../assets/logos/SQLAlchemy.svg.png";
+import supabaselogo from "../assets/logos/supabase-logo.png";
+import flasklogo from "../assets/logos/flask-svgrepo-com.svg";
+import mysqllogo from "../assets/logos/mysql-logo-svgrepo-com.svg";
+import postgresql from "../assets/logos/postgresql-svgrepo-com.svg";
+import mongodblogo from "../assets/logos/mongodb-svgrepo-com.svg";
+
 function AboutMe() {
   return (
     <section id="#about-me" className="flex flex-col gap-5">
@@ -24,24 +39,103 @@ function AboutMe() {
         <h3 className="text-2xl font-extralight underline decoration-accent-graphite-blue">
           Technologies I've used
         </h3>
-        <div className="flex flex-row flex-wrap">
-          <div>
-            <span>Frontend</span>
-            <ul>
-              <li>React</li>
-              <li>Flutter</li>
-            </ul>
-          </div>
-          <div>
-            <span>Backend</span>
-          </div>
-          <div>
-            <span>Frontend</span>
-          </div>
-        </div>
+        <TechUsedBentoGrid />
       </div>
     </section>
   );
 }
 
 export default AboutMe;
+
+function TechUsedBentoGrid() {
+  return (
+    <div className="grid grid-cols-3 grid-rows-5 gap-2">
+      <div className="col-span-2 row-span-2 text-lg w-full bg-accent-graphite-blue rounded-lg flex flex-col justify-center items-center font-bold uppercase underline decoration-text-soft-lavender-white hover:scale-102 ease-in-out duration-300">
+        What's in my toolbox?
+      </div>
+      <div className="col-span-1 row-span-5 flex flex-col items-start justify-center w-full bg-accent-graphite-blue/30 rounded-sm p-5 hover:scale-102 ease-in-out duration-300">
+        <span className="text-lg font-semibold">Frontend</span>
+        <ul className="border-l-2 p-2 border-accent-graphite-blue font-light">
+          <li className="flex flex-row gap-1">
+            <img src={reactlogo} alt="React Logo" className="size-5" />
+            React
+          </li>
+          <li className="flex flex-row gap-1">
+            <img src={flutterlogo} alt="Flutter Logo" className="size-5" />
+            Flutter
+          </li>
+          <li className="flex flex-row gap-1">
+            <img
+              src={tailwindcsslogo}
+              alt="TailwindCSS Logo"
+              className="size-5"
+            />
+            TailwindCSS
+          </li>
+          <li className="flex flex-row gap-1">
+            <img src={bootstraplogo} alt="Bootstrap Logo" className="size-5" />
+            Bootstrap
+          </li>
+          <li className="flex flex-row gap-1">
+            <img src={shadcnlogo} alt="Shadcn Logo" className="size-5" />
+            Shadcn
+          </li>
+          <li className="flex flex-row gap-1">
+            <img
+              src={materialuilogo}
+              alt="MaterialUI Logo"
+              className="size-5"
+            />
+            MaterialUI
+          </li>
+        </ul>
+      </div>
+      <div className="col-span-1 row-span-3 w-full p-5 flex flex-col items-start justify-center bg-secondary-iron-charcoal rounded-sm hover:scale-102 ease-in-out duration-300">
+        <span className="text-lg font-semibold">Backend</span>
+        <ul className="border-l-2 p-2 border-accent-graphite-blue font-light">
+          <li className="flex flex-row gap-1">
+            <img src={nodejslogo} alt="Node.js Logo" className="size-5" />
+            Node.js
+          </li>
+          <li className="flex flex-row gap-1">
+            <img src={expressjslogo} alt="Express.js Logo" className="size-5" />
+            Express.js
+          </li>
+          <li className="flex flex-row gap-1">
+            <img src={flasklogo} alt="Flask Logo" className="size-5" />
+            Flask
+          </li>
+          <li className="flex flex-row gap-1">
+            <img
+              src={sqlalchemylogo}
+              alt="SQLAlchemy Logo"
+              className="size-5"
+            />
+            SQLAlchemy
+          </li>
+          <li className="flex flex-row gap-1">
+            <img src={supabaselogo} alt="Supabase Logo" className="size-5" />
+            Supabase
+          </li>
+        </ul>
+      </div>
+      <div className="col-span-1 row-span-3 w-full flex flex-col items-start justify-center bg-primary-navy-indigo/40 p-5 rounded-sm hover:scale-102 ease-in-out duration-300">
+        <span className="text-lg font-semibold">Database</span>
+        <ul className="border-l-2 p-2 border-accent-graphite-blue font-light">
+          <li className="flex flex-row gap-1">
+            <img src={mysqllogo} alt="MySQL Logo" className="size-5" />
+            MySQL
+          </li>
+          <li className="flex flex-row gap-1">
+            <img src={postgresql} alt="PostgreSQL Logo" className="size-5" />
+            PostgreSQL
+          </li>
+          <li className="flex flex-row gap-1">
+            <img src={mongodblogo} alt="MongoDB Logo" className="size-5" />
+            MongoDB
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+}

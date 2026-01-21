@@ -12,7 +12,7 @@ import AboutMe from "./lib/AboutMe";
 
 function App() {
   return (
-    <main className="bg-background-graphene-black h-screen text-text-soft-lavender-white/90">
+    <main className="bg-background-graphene-black h-full text-text-soft-lavender-white/90">
       {/* <div className="bg-background-graphene-black/1 backdrop-blur-3xl flex flex-row h-16 fixed gap-10 w-full z-20 shadow-xs border-b border-accent-graphite-blue/50 ">
         <div className="bg-background-graphene-black/1 flex-1"></div>
         <ul className="flex flex-row flex-1 items-center justify-start gap-20 ">
@@ -90,6 +90,29 @@ function App() {
         {/** right column */}
         <div className="col-span-1 p-10 my-20 overflow-y-auto bg-text-soft-lavender-white/3 border border-secondary-iron-charcoal shadow-sm shadow-secondary-iron-charcoal drop-shadow-2xl rounded-2xl">
           <AboutMe />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fuga?
+          Eaque, natus. Nostrum, sint rem nesciunt atque pariatur nobis iste ex
+          voluptate deserunt ipsa voluptatum, natus consectetur provident.
+          Accusamus, vel distinctio architecto laudantium quod cumque minus
+          assumenda, aspernatur reprehenderit nisi nostrum illo! Iure dicta
+          optio expedita, sint delectus iusto possimus enim, perspiciatis cum
+          rerum vero harum excepturi earum illo quis! Vero amet doloremque,
+          deleniti dolorum provident quasi veniam nobis aliquid quia ut itaque
+          fugit et officia nisi dolores enim omnis sit sapiente, maiores
+          perspiciatis. Suscipit minima harum voluptatem laudantium quidem porro
+          blanditiis recusandae eligendi nobis, optio illo fugit laborum neque
+          eaque reprehenderit expedita. Nostrum impedit ipsum earum sequi
+          ratione sapiente, commodi expedita! Soluta doloremque aut eaque
+          obcaecati quisquam ullam voluptatem sint quibusdam deserunt ut magni
+          impedit, delectus accusantium voluptate. Minima praesentium accusamus
+          molestias odit quibusdam nihil atque, dolorum deleniti perferendis
+          modi ut natus cupiditate exercitationem, architecto culpa quasi,
+          doloribus iusto nisi! Illum, cupiditate laudantium ex tenetur dolores
+          quidem incidunt vitae voluptates explicabo qui minus, ipsum pariatur
+          suscipit voluptate nesciunt sed labore. Nulla velit perferendis
+          tempora laboriosam esse? Eligendi doloribus earum molestiae atque sunt
+          dolorum quia animi, at praesentium eos nesciunt id neque corrupti,
+          incidunt, unde a distinctio nostrum perspiciatis culpa!
         </div>
       </div>
     </main>
