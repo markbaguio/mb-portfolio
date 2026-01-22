@@ -20,7 +20,7 @@ function AboutMe() {
         <h2 className="text-3xl font-semibold w-full border-b-6 border-primary-navy-indigo mb-5">
           About Me
         </h2>
-        <p className="text-justify">
+        <p className="">
           I'm a detail-oriented developer with{" "}
           <span className="font-extrabold">more than 1 year</span> of experience
           in{" "}
