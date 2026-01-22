@@ -56,8 +56,8 @@ function TechUsedBentoGrid() {
         What's in my toolbox?
       </div>
       <div className="col-span-1 row-span-5 border border-text-soft-lavender-white/10 flex flex-col items-start justify-center w-full bg-accent-graphite-blue/30 rounded-sm p-5 hover:scale-102 ease-in-out duration-300">
-        <span className="text-lg font-semibold">Frontend</span>
-        <ul className="border-l-2 p-2 border-accent-graphite-blue font-light">
+        <span className="text-lg font-semibold ">Frontend</span>
+        <ul className="border-l-2 p-2 flex flex-col gap-2 border-accent-graphite-blue font-light">
           <li className="flex flex-row gap-1">
             <img src={reactlogo} alt="React Logo" className="size-5" />
             React
@@ -94,7 +94,7 @@ function TechUsedBentoGrid() {
       </div>
       <div className="col-span-1 row-span-3 border border-text-soft-lavender-white/10 w-full p-5 flex flex-col items-start justify-center bg-secondary-iron-charcoal rounded-sm hover:scale-102 ease-in-out duration-300">
         <span className="text-lg font-semibold">Backend</span>
-        <ul className="border-l-2 p-2 border-accent-graphite-blue font-light">
+        <ul className="border-l-2 p-2 flex flex-col gap-2 border-accent-graphite-blue font-light">
           <li className="flex flex-row gap-1">
             <img src={nodejslogo} alt="Node.js Logo" className="size-5" />
             Node.js
@@ -123,7 +123,7 @@ function TechUsedBentoGrid() {
       </div>
       <div className="col-span-1 row-span-3 w-full border border-text-soft-lavender-white/10 flex flex-col items-start justify-center bg-primary-navy-indigo/40 p-5 rounded-sm hover:scale-102 ease-in-out duration-300">
         <span className="text-lg font-semibold">Database</span>
-        <ul className="border-l-2 p-2 border-accent-graphite-blue font-light">
+        <ul className="border-l-2 p-2 flex flex-col gap-2 border-accent-graphite-blue font-light">
           <li className="flex flex-row gap-1">
             <img src={mysqllogo} alt="MySQL Logo" className="size-5" />
             MySQL
