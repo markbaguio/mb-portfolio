@@ -10,6 +10,7 @@ import {
 import PageHeader from "./lib/PageHeader";
 import AboutMe from "./lib/AboutMe";
 import Experience from "./lib/Experience";
+import Projects from "./lib/Projects";
 
 function App() {
   return (
@@ -78,6 +79,7 @@ function App() {
         <div className="col-span-1 p-10 flex flex-col gap-30 my-20 overflow-y-auto bg-text-soft-lavender-white/3 border border-secondary-iron-charcoal shadow-sm shadow-secondary-iron-charcoal drop-shadow-2xl rounded-2xl">
           <AboutMe />
           <Experience />
+          <Projects />
         </div>
       </div>
     </main>
