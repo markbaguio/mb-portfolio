@@ -52,7 +52,7 @@ export default AboutMe;
 function TechUsedBentoGrid() {
   return (
     <div className="grid grid-cols-3 grid-rows-5 gap-2">
-      <div className="col-span-2 row-span-2 text-lg border border-text-soft-lavender-white/10 w-full bg-accent-graphite-blue rounded-lg flex flex-col justify-center items-center font-bold uppercase underline decoration-text-soft-lavender-white hover:scale-102 ease-in-out duration-300">
+      <div className="col-span-2 row-span-2 text-lg border border-text-soft-lavender-white/10 w-full bg-accent-graphite-blue rounded-lg flex flex-col justify-center items-center font-bold uppercase decoration-text-soft-lavender-white hover:scale-102 ease-in-out duration-300">
         What's in my toolbox?
       </div>
       <div className="col-span-1 row-span-5 border border-text-soft-lavender-white/10 flex flex-col items-start justify-center w-full bg-accent-graphite-blue/30 rounded-sm p-5 hover:scale-102 ease-in-out duration-300">
