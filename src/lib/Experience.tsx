@@ -1,6 +1,6 @@
 function Experience() {
   return (
-    <section className="flex flex-col gap-10">
+    <section id="experience" className="flex flex-col gap-10 scroll-mt-25">
       <div>
         <h2 className="text-3xl font-semibold w-full border-b-6 border-primary-navy-indigo mb-5">
           Experience
