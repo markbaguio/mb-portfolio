@@ -15,7 +15,11 @@ import mongodblogo from "../assets/logos/mongodb-svgrepo-com.svg";
 
 function AboutMe() {
   return (
-    <section id="#about-me" className="flex flex-col gap-10 scroll-mt-25">
+    <section
+      id="about-me"
+      className="flex flex-col gap-10 my-10 scroll-mt-25
+    "
+    >
       <div>
         <h2 className="text-3xl font-semibold w-full border-b-6 border-primary-navy-indigo mb-5">
           About Me
