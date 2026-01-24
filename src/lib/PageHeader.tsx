@@ -14,9 +14,10 @@ function PageHeader() {
           onClick={() => {
             setActiveSection("about-me");
           }}
+          className="relative"
         >
           <li
-            className={`${activeSection === "about-me" ? "bg-pale-taupe" : ""} hover:cursor-pointer hover:text-accent-graphite-blue ease-in-out duration-250`}
+            className={`${activeSection === "about-me" ? "before:content-[''] before:absolute before:-bottom-0.5 before:w-full before:h-1 before:bg-accent-graphite-blue" : ""} hover:cursor-pointer hover:text-accent-graphite-blue ease-in-out duration-250`}
           >
             About Me
           </li>
@@ -26,9 +27,10 @@ function PageHeader() {
           onClick={() => {
             setActiveSection("experience");
           }}
+          className="relative"
         >
           <li
-            className={`${activeSection === "experience" ? "bg-pale-taupe" : ""} hover:cursor-pointer hover:text-accent-graphite-blue ease-in-out duration-250`}
+            className={`${activeSection === "experience" ? "before:content-[''] before:absolute before:-bottom-0.5 before:w-full before:h-1 before:bg-accent-graphite-blue" : ""} hover:cursor-pointer hover:text-accent-graphite-blue ease-in-out duration-250`}
           >
             Experience
           </li>
@@ -38,9 +40,10 @@ function PageHeader() {
           onClick={() => {
             setActiveSection("projects");
           }}
+          className="relative"
         >
           <li
-            className={`${activeSection === "projects" ? "bg-pale-taupe" : ""} hover:cursor-pointer hover:text-accent-graphite-blue ease-in-out duration-250`}
+            className={`${activeSection === "projects" ? "before:content-[''] before:absolute before:-bottom-0.5 before:w-full before:h-1 before:bg-accent-graphite-blue" : ""} hover:cursor-pointer hover:text-accent-graphite-blue ease-in-out duration-250`}
           >
             Projects
           </li>
