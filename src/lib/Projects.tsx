@@ -3,7 +3,7 @@ import { projects, type ProjectCard } from "./constants";
 
 function Projects() {
   return (
-    <section id="Project">
+    <section id="Projects">
       <h2 className="fle flex-col text-3xl font-semibold w-full border-b-6 border-primary-navy-indigo mb-5">
         Projects
       </h2>
