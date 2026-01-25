@@ -11,6 +11,7 @@ import PageHeader from "./lib/PageHeader";
 import AboutMe from "./lib/AboutMe";
 import Experience from "./lib/Experience";
 import Projects from "./lib/Projects";
+import resume from "../src/assets/resume/Mark Godwin C. Baguio - Resume.pdf";
 
 function App() {
   return (
@@ -47,9 +48,13 @@ function App() {
               <span className="font-light flex justify-center items-center gap-1 text-sm">
                 <MapPinHouse size={12} /> Bulacan, Philippines
               </span>
-              <button className="bg-primary-navy-indigo rounded-sm p-2 flex gap-1 text-sm hover:cursor-pointer  hover:bg-primary-navy-indigo/50  ease-in-out duration-500 hover:scale-110">
+              <a
+                href={resume}
+                download
+                className="w-fit p-2 flex gap-1 text-sm rounded-sm bg-primary-navy-indigo hover:cursor-pointer  hover:bg-primary-navy-indigo/50  ease-in-out duration-500 hover:scale-110"
+              >
                 <Download size={16} /> Resume
-              </button>
+              </a>
             </div>
             <div className="w-full flex flex-row gap-5 py-10">
               <a
