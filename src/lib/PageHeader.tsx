@@ -12,7 +12,6 @@ function PageHeader() {
             to="about-me-section"
             duration={200}
             spy={true}
-            onSetActive={(name) => console.log(`Active Section: ${name}`)}
             activeClass="before:content-[''] before:absolute before:-bottom-0.5 before:w-full before:h-1 before:bg-accent-graphite-blue"
           >
             About Me
@@ -25,7 +24,6 @@ function PageHeader() {
             to="experience-section"
             duration={200}
             spy={true}
-            onSetActive={(name) => console.log(`Active Section: ${name}`)}
             activeClass="before:content-[''] before:absolute before:-bottom-0.5 before:w-full before:h-1 before:bg-accent-graphite-blue"
           >
             Experience
@@ -38,7 +36,6 @@ function PageHeader() {
             to="projects-section"
             duration={200}
             spy={true}
-            onSetActive={(name) => console.log(`Active Section: ${name}`)}
             activeClass="before:content-[''] before:absolute before:-bottom-0.5 before:w-full before:h-1 before:bg-accent-graphite-blue"
           >
             Projects
