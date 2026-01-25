@@ -1,16 +1,19 @@
 import { MoveUpRight } from "lucide-react";
 import { projects, type ProjectCard } from "./constants";
+import { Element } from "react-scroll";
 
 function Projects() {
   return (
-    <section id="projects" className="flex flex-col scroll-mt-25">
-      <h2 className="fle flex-col text-3xl font-semibold w-full border-b-6 border-primary-navy-indigo mb-5">
-        Projects
-      </h2>
-      <div className="flex flex-col gap-5">
-        <ProjectCards projects={projects} />
-      </div>
-    </section>
+    <Element name="projects-section" className="mb-50">
+      <section id="projects" className="flex flex-col">
+        <h2 className="fle flex-col text-3xl font-semibold w-full border-b-6 border-primary-navy-indigo mb-5">
+          Projects
+        </h2>
+        <div className="flex flex-col gap-5">
+          <ProjectCards projects={projects} />
+        </div>
+      </section>
+    </Element>
   );
 }
 
